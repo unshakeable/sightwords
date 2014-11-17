@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Yash's Sight words</title>
+	<script type="text/javascript" src='jquery-1.11.1.js'></script>
+	<script type="text/javascript" src='sightword.js'></script>
+	<link rel="stylesheet" type="text/css" href="sightword.css">
+</head>
+<body>
+	<h1>Yash's Sight words</h1>
+	<div>
+		<span><label class ='toggleWord'>Word :</label></span>
+		<span id='word'></span>
+	</div>
+	<span id='#pronunciation'>
+		<img id='speaker' src='images/Speaker.png' accesskey="s" alt='Pronunciation' height="100" width="100"/>
+		<audio id='audio' src="" preload="auto"></audio>
+		<audio id='cheers' src="cheers.mp3" preload="auto"></audio>
+	</span>
+	<div>
+		<label>Enter the word spelling</label>
+		<input type='text' id='inputWord'></input>
+	</div>
+	<div>
+		<input type='button' id='previous' value='Previous' class="button-xlarge" accesskey="p"/>
+		<input type='button' id='next' value='Next' class="button-xlarge" accesskey="n"/>
+	</div>
+	<label>Yash's Points :</label>
+	<label id='myPoints'>0<label>
+	
+</body>
+</html>
